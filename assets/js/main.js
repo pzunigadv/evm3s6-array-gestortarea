@@ -29,7 +29,7 @@ function actualizarTablaTareas() {
         let row = tablaTareas.insertRow();
         let cell1 = row.insertCell(0);
         let cell2 = row.insertCell(1);
-        let cell3 = row.insertCell(2)
+        let cell3 = row.insertCell(2);
         cell1.innerHTML = tarea.descripcion;
         cell2.innerHTML = `<b id="estado${indice}">${tarea.estado}</b>`;
         // creacion boton check acción cambio estado completar tarea
@@ -61,7 +61,7 @@ function mostrarTareasFiltradas(tareasFiltradas) {
         let row = tablaTareas.insertRow();
         let cell1 = row.insertCell(0);
         let cell2 = row.insertCell(1);
-        let cell3 = row.insertCell(2)
+        let cell3 = row.insertCell(2);
         cell1.innerHTML = tarea.descripcion;
         cell2.innerHTML = `<b id="estado${indice}">${tarea.estado}</b>`;
         // creacion boton check acción cambio estado completar tarea
